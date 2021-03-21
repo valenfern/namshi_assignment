@@ -1,19 +1,18 @@
-/ Non relevant styles
 *{
     box-sizing: border-box;
 }
 
 @media (max-width: 640px) {
     p{
-        font-size: calc(13px + 1vw);;
+        font-size: calc(13px + 1.5vw);
     }
 
     .heading_1{
-        font-size: calc(17px + 1.5vw);
+        font-size: calc(18px + 1.5vw);
     }
 
     .column_text p {
-        margin-bottom: 1vw ;
+        margin-bottom: 1vw;
         font-weight: 700;
         font-size: calc(6px + 0.8vw);
     }
@@ -25,7 +24,6 @@
     .image-stack img {
         width: 100%;
     }
-
 }
 
 @media (min-width: 641px) {
